@@ -1,0 +1,146 @@
+#slider {
+    position: absolute;
+	width: 100%;
+}
+
+#tooplate_wrapper {
+	width: 1000px;
+	padding: 0 10px;
+	margin-left: 10%;
+}
+
+#tooplate_sidebar {
+	float: left;	
+	width: 228px;
+}
+
+#header { 
+	width: 208px;
+	margin-left:0px;
+	padding: 110px 10px 0;
+	height: 93px;
+	background: url(../images1/tooplate_site_header.png) no-repeat top
+}
+
+#header h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#header h1 a { 
+	display: block; 
+	width: 70%; 
+	height: 45px; 
+	margin: 0 auto; 
+	background: url(../images1/tooplate_logo.png) top center no-repeat; 
+	text-indent: -10000px; 
+}
+
+#menu {
+	clear: both;
+	width: 500px;
+}
+
+#content {
+	float:left;
+	margin-top: 60px;
+	margin-left:15%;
+	width: 600px;
+	height: 689px;	
+	padding: 10px;
+	background: url(../images1/tooplate_main.png) no-repeat top left
+}
+
+.content_section {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #666
+}
+
+.last_section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#footer {
+	clear: both;
+	width: 680px;
+	padding: 0 60px;
+	margin: 0 auto;
+	text-align: right;
+	color: #828282;
+}
+
+#footer a {
+	color: #ccc;
+}
+
+.scroll {
+    width: 600px;
+    height: 689px;
+	margin: 50px 80px 50px 50px;
+    overflow:hidden;
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    width: 580px;
+    height: 650px;
+	overflow: auto ;
+}
+
+ul.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navigation li {
+    margin: 0;
+	padding: 0;
+}
+
+ul.navigation a {
+	display: block;
+	width: 228px;
+	height: 59px;
+	font-size: 16px;
+	font-weight: 700;
+    text-decoration: none;
+	text-align: center;
+	color: #000;
+	background: url(../images1/tooplate_menu.png) no-repeat;
+}
+
+ul.navigation a.last {
+	height: 98px;
+	background: url(../images1/tooplate_menu_last.png) no-repeat top left;
+}
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #fff;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: 0
+}
+
+.scrollButtons.right {
+    right: 0
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Teacher-Registration Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="teacherf.css"/>
+    </head>
+    <body>   
+        <form action="insertTchr.php" method="post" class="register">
+            <h1>Teacher Registration Form</h1>
+            <fieldset class="row2">
+                <legend>Personal Details
+                </legend>
+                <p>
+				
+                    <label>Name 
+                    </label>
+                    <input type="text" name="username" placeholder="Enter name" class="long"/>
+                </p>
+                <p>
+                    <label>Father's Name
+                    </label>
+                    <input type="text" name="Fname" placeholder="Enter Father`s name" class="long"/>
+                </p>
+                <p>
+                    <label>Mother's Name
+                    </label>
+                    <input type="text" name="Mname" placeholder="Enter Mother`s name" class="long"/>
+                </p>
+                <p>
+                    <label>Email Id
+                    </label>
+                    <input type="text" name="email" placeholder="Enter Email" class="long"/>
+                </p>
+                <p>
+                    <label>Phone No.
+                    </label>
+                     <input type="text" name="mob" placeholder="Enter contact" maxlength="12"/>
+                </p>
+                <p>
+                    <label>Temporary Address
+                    </label>
+                    <input class="long" type="text" name="tad" placeholder="Enter temporary address" value=""/>
+
+                </p>
+				<p>
+                    <label>Permanent Address
+                    </label>
+                    <input class="long" type="text" name="pad" placeholder="Enter permanent address" value=""/>
+
+                </p>
+            </fieldset>
+            <fieldset class="row3">
+                <legend>Further Information
+                </legend>
+				<p>
+				<label>Registration date:</label><input type="date" name="date"/>
+				</p>
+
+                <p>
+                    <label>Gender</label>
+                    <select name="gen">
+						<option value="Select">Select</option>
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+					</select>
+                </p>
+                <p>
+                    <label>Date of Birth 
+                    </label><input type="date" name="dob"/>
+
+                </p>
+                <p>
+                    <label>City 
+                    </label>
+                    
+                    <input  type="text" name="city" placeholder="Enter city" maxlength="10"/>
+                </p>
+                <p>
+                    <label>Pincode
+                    </label>
+                    <input type="text" name="pin" placeholder="Enter Pincode" value="" />
+                </p>
+				<p>
+                    <label>State
+                    </label>
+                    <input type="text" placeholder="Enter state" name="state"/>
+                </p>
+				<p>
+                    <label>Category
+                    </label>
+                    <select name="cat">
+		<option value="Select">Select</option>
+		<option value="Gen">General</option>
+		<option value="OBC-NCL">OBC-NCL</option>
+		<option value="SC">SC</option>
+		<option value="ST">ST</option>
+</select>
+                </p>
+				<p>
+                     <label>Religion
+                    </label>
+                    <input type="text" placeholder="Enter Religion" name="relig"/>
+                </p>
+                
+            </fieldset>
+            <fieldset class="row1">
+                <legend>Academic Details
+                </legend>
+                <p>
+                    <label>Graduation Degree
+                    </label>
+                    <input type="text" name="per" placeholder="%"/>
+                    <label>Under Graduation In </label>
+                    <select name="UG">
+						<option value="None">None</option>
+						<option value="BE">BE</option>
+						<option value="BTECH">BTECH</option>
+						<option value="BPh">BPh</option>
+						<option value="BCA">BCA</option>
+						<option value="BSC">BSc</option>
+					</select>
+					
+                </p>
+				<p>
+				<label>Graduation Collage name</label>
+					<input type="text" name="clgname" placeholder="Enter collage name"/>
+	
+                
+                    <label>Post Graduation In
+                    </label>
+                    <select name="PG">		
+						<option value="None">None</option>
+						<option value="ME">ME</option>
+						<option value="MTECH">MTECH</option>
+						<option value="MPh">MPh</option>
+						<option value="MCA">MCA</option>
+						<option value="MSc">MSc</option>
+					</select>
+                    </label>
+					
+                </p>
+				<p>
+					<label>Teaching Department
+                    </label>
+                    <select name="dept">
+						<option value="Select">Select</option>
+						<option value="CS">Computer</option>
+						<option value="CE">Civil</option>
+						<option value="ME">Mechanical</option>
+						<option value="EC">Electrical</option>
+						<option value="IP">Industrial Production</option>
+						<option value="IT">Information Technology</option>
+						<option value="EI">Electronic And Instrumentation</option>
+					</select>
+                    	
+
+				</p>
+					
+				<p>
+                    <label>Teaching Experiance
+                    </label>
+                    <input class="long" type="text" name="expe" placeholder="In year" value=""/>
+
+                </p>
+				
+				<p>
+                    <label>Last Teaching Institute
+                    </label>
+                    <input class="long" type="text" name="center" placeholder="Enter institute name" value=""/>
+
+                </p>
+            </fieldset>
+
+			
+            <fieldset class="row4">
+                <legend>Terms and Conditions
+                </legend>
+                <p class="agreement">
+                    <input type="checkbox" value=""/>
+                    <label>I accept the <a href="#">Terms and Conditions</a></label>
+                </p>
+            </fieldset>
+            <div><button class="button">Register &raquo;</button></div>
+        </form>
+    </body>
+</html>
+
+
+
+
+
